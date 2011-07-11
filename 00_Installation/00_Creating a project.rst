@@ -13,3 +13,6 @@ creating::
     cd myProject
     git clone git://github.com/djpate/Kinaf-doc.git
     php Kinaf/bin/kinaf init
+
+You should now have this structure :
+
