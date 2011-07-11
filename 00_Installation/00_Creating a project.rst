@@ -4,4 +4,4 @@ Creating a project
 Downloading Kinaf
 =================
 
-get it here
+get it on github
