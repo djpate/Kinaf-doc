@@ -48,9 +48,13 @@ You should now have this structure :
 	├── layout
 	│   └── default
 	├── namespace
+	│   ├── controllers
+	│   └── entities
 	├── orm
 	├── public
 	├── routing
 	└── views
+		└── home
+
 
 
