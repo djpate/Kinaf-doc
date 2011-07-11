@@ -1,5 +1,5 @@
 Creating a project
 ------------------
 
-Hello
-=====
+Downloading Kinaf
+=================
