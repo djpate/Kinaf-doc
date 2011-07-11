@@ -11,7 +11,7 @@ first of all create a directory and download Kinaf into a directory, you can nam
 creating::
     mkdir myProject
     cd myProject
-    git clone git://github.com/djpate/Kinaf-doc.git
+    git clone git://github.com/djpate/Kinaf.git
     php Kinaf/bin/kinaf init
 
 You should now have this structure :
