@@ -17,3 +17,40 @@ first of all create a directory and download Kinaf into a directory, you can nam
 
 You should now have this structure :
 
+::
+
+	├── configuration
+	├── Kinaf
+	│   ├── bin
+	│   │   ├── base_file
+	│   │   └── scripts
+	│   │       └── templates
+	│   │           └── Class
+	│   ├── classes
+	│   │   └── kinaf
+	│   │       └── orm
+	│   └── libs
+	│       ├── Twig
+	│       │   ├── Error
+	│       │   ├── Extension
+	│       │   ├── Filter
+	│       │   ├── Function
+	│       │   ├── Loader
+	│       │   ├── Node
+	│       │   │   └── Expression
+	│       │   │       ├── Binary
+	│       │   │       └── Unary
+	│       │   ├── NodeVisitor
+	│       │   ├── Sandbox
+	│       │   ├── Test
+	│       │   └── TokenParser
+	│       └── yaml
+	├── layout
+	│   └── default
+	├── namespace
+	├── orm
+	├── public
+	├── routing
+	└── views
+
+
