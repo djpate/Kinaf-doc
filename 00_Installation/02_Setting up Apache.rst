@@ -52,4 +52,4 @@ Now add the vhost to apache
 
 Once this is setup you should see a basic Welcome to Kinaf homepage
 
-Congratulations you are ready to go !
+**Congratulations you are ready to go !**
