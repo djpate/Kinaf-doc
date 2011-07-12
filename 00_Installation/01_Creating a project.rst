@@ -1,9 +1,6 @@
 Creating a project
 ------------------
 
-Downloading Kinaf
-=================
-
 Starting a project with Kinaf is pretty simple. 
 
 first of all create a directory and download Kinaf into a directory, you can name it whatever you want but by convention you can name it Kinaf.
@@ -14,6 +11,8 @@ first of all create a directory and download Kinaf into a directory, you can nam
     cd myProject
     git clone git://github.com/djpate/Kinaf.git
     php Kinaf/bin/kinaf init
+
+.. If you plan to use a git repository for your project then you can use git submodules in order to keep Kinaf up to date.
 
 You should now have this structure :
 
@@ -55,6 +54,4 @@ You should now have this structure :
 	├── routing
 	└── views
 		└── home
-
-
 
