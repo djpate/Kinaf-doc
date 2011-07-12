@@ -12,7 +12,16 @@ first of all create a directory and download Kinaf into a directory, you can nam
     git clone git://github.com/djpate/Kinaf.git
     php Kinaf/bin/kinaf init
 
-.. If you plan to use a git repository for your project then you can use git submodules in order to keep Kinaf up to date.
+If you plan to use a git repository for your project then you can use git submodules in order to keep Kinaf up to date.
+
+::
+
+    cd myProject
+    git submodule add git://github.com/djpate/Kinaf.git Kinaf
+    git submodule init
+    git submodule update
+    php Kinaf/bin/kinaf init
+
 
 You should now have this structure :
 
