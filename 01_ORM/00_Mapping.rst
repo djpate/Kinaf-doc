@@ -6,7 +6,7 @@ In Kinaf, all the orm related files are in the orm directory in the root of the 
 
 An object mapped with Kinaf is called an "Entity", In order to create an Entity you'll have to create two files
 
-First the mapping file in the /orm directory and the class file in the /namespace/entity directory.
+First the mapping file in the /orm directory and the class file in the /namespace/entities directory.
 
 Here is an example for an entity called "Comment"
 
@@ -25,10 +25,13 @@ Here is an example for an entity called "Comment"
       type: entity
       classname: user
       
-**/namespace/entity/comment.class.php**
+**/namespace/entities/comment.class.php**
 ::
     
     <?php
+    
+		namespace entities;
+    
         use \kinaf\orm\model;
         
         class Comment extends model{
@@ -37,4 +40,4 @@ Here is an example for an entity called "Comment"
         
     ?>
 
-notice that the class name is lowercase, this is needed by the bug in the php autoloading feature.
+notice that the filename is lowercase, this is needed by the bug in the php autoloading feature.
