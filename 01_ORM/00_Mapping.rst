@@ -38,3 +38,20 @@ Here is an example for an entity called "Comment"
     ?>
 
 notice that the class name is lowercase, this is needed by the bug in the php autoloading feature.
+
+===========
+Fields type
+===========
+
+===========
+Constraints
+===========
+
+=====
+Usage
+=====
+
+=======
+Hacking
+=======
+
