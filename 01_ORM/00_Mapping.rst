@@ -13,6 +13,7 @@ Here is an example for an entity called "Comment"
 **/orm/comment.yaml**
 
 ::
+
   fields:
     content:
       type: text
