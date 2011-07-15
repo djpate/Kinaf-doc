@@ -11,7 +11,9 @@ The ORM is really designed to be simple to use, the following example should sho
 	$post = new Post();
 	$post->content = "My new post";
 	$post->author = $user;
-	$post->save();
+	if( !$post->save() ){
+		// $post does not validate constraints
+	}
 	
 	echo $post->content;
 	
