@@ -32,7 +32,7 @@ now let's add a vhost to apache
 
 ::
 
-    nano /etc/apache2/sites-available/myProject.conf
+    nano /etc/apache2/sites-available/myProject
 
 Here is an example vhost config file
 
